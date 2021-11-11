@@ -1,0 +1,57 @@
+.container {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  height: 100vh;
+  align-content: center;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.headline {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-headline);
+  font-size: 3rem;
+  padding-bottom: 6rem;
+}
+
+.subtitle {
+  color: var(--color-primary);
+}
+
+.scannedText {
+  border: var(--border-primary);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+}
+
+.loading {
+  overflow: hidden;
+}
+
+progress {
+  border: 0;
+  height: 0.6rem;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: var(--border-radius);
+  background: var(--color-contrast);
+}
+
+progress::-webkit-progress-value {
+  background: var(--color-primary);
+  border-radius: var(--border-radius);
+}
+
+.img {
+  width: 10rem;
+  padding-bottom: 2rem;
+}
+
+.link {
+  color: var(--color-text);
+  font-size: 0.8rem;
+}

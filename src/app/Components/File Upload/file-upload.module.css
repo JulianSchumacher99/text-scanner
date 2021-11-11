@@ -3,21 +3,7 @@
   justify-items: center;
 }
 
-.btn {
-  background: var(--color-primary);
-  color: var(--color-contrast);
-  border-radius: var(--border-radius);
-  padding: 0.5rem 1.5rem;
-  cursor: pointer;
-  margin: 2rem;
-}
-
-.btn:hover {
-  background: var(--color-contrast);
-  color: var(--color-primary);
-  border: var(--border-primary);
-}
-
 .img {
   width: 5rem;
+  padding-bottom: 2rem;
 }
