@@ -17,7 +17,7 @@
 
   /* BORDER */
   --border-radius: 1rem;
-  --border-primary: 0.2rem solid #907986;
+  --border-primary: 0.1rem solid #c8a6a2;
 
   /* FONT */
   --font-family: 'Roboto', sans-serif;
@@ -27,4 +27,47 @@
 body {
   margin: 0;
   font-family: var(--font-family);
+  background: var(--color-background);
+}
+
+.btn {
+  background: var(--color-secondary);
+  color: var(--color-contrast);
+  border-radius: var(--border-radius);
+  width: 10.6rem;
+  height: 3rem;
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  border: 0;
+}
+
+.btn:hover {
+  background: var(--color-contrast);
+  color: var(--color-secondary);
+  border: var(--border-primary);
+}
+
+.btn_inactiv {
+  background: var(--color-contrast);
+  color: var(--color-secondary);
+  border: var(--border-primary);
+  border-radius: var(--border-radius);
+  width: 10.6rem;
+  height: 3rem;
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+.btn_inactiv:hover {
+  background: var(--color-secondary);
+  color: var(--color-contrast);
+  border: 0;
 }
