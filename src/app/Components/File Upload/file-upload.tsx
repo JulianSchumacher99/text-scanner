@@ -27,7 +27,7 @@ function ImageInput({ onUpload }: ImageInputProps) {
           style={{ display: 'none' }}
           accept="image/*"
           onChange={handleChange}
-        />{' '}
+        />
       </label>
     </div>
   );
